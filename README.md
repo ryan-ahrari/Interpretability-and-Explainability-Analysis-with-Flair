@@ -11,7 +11,7 @@ In this project, I look at the following several academic papers that overlook t
   <li>Balancing the Tradeoff Between Clustering Value and Interpretability</li>
   <li>Interpretable Machine Learning in Healthcare</li>
 </ol>
-then I do my own personal sentiment analysis on them, next, I do sentiment analysis using the [Flair NLP tool](https://github.com/flairNLP/flair). Finally, I will compare and contrast my results with that of Flair and will compile my findings into a single paper.  
+then I do my own personal sentiment analysis on them, next, I do sentiment analysis using the Flair NLP tool, the documentation for which can be found here: https://github.com/flairNLP/flair. Finally, I will compare and contrast my results with that of Flair and will compile my findings into a single paper.  
 
 The goal of this project is to analyze and contextualize the way that the topics of explainability and interpretability are discussed in order to understand their futures.
 
