@@ -31,3 +31,18 @@
 #
 # In this file, you will see how I use flair to do sentiment analyis on the 
 # papers I have read
+
+from flair.data import Sentence
+from flair.nn import Classifier
+
+# make a sentence
+sentence = Sentence('I am a human')
+
+# load the NER tagger
+tagger = Classifier.load('sentiment')
+
+# run NER over sentence
+tagger.predict(sentence)
+
+# print the sentence with all annotations
+print(sentence)
